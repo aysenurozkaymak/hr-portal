@@ -1,0 +1,13 @@
+.table-wrap{
+  background:#fff; border:1px solid var(--border); border-radius:12px; overflow:auto;
+}
+.emp-table{
+  width:100%; border-collapse:collapse; min-width:720px;
+}
+.emp-table th, .emp-table td{
+  padding:12px 14px; border-bottom:1px solid var(--border); text-align:left;
+}
+.emp-table th{ background:#eef2ff; color:var(--primary) }
+.emp-table tr:hover{ background:#f8fafc }
+.filterbar{ display:flex; gap:8px; margin:12px 0 16px }
+.input{ padding:10px 12px; border:1px solid var(--border); border-radius:8px }

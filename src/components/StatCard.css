@@ -1,0 +1,12 @@
+.stat-grid{
+  display:grid; gap:16px;
+  grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+}
+.stat-card{
+  background:var(--card); border:1px solid var(--border);
+  border-radius:12px; padding:16px;
+  box-shadow:0 6px 18px rgba(2,6,23,.05);
+}
+.stat-title{ color:var(--muted); font-size:14px }
+.stat-value{ font-size:28px; font-weight:800; margin:4px 0 2px }
+.stat-sub{ color:var(--muted); font-size:12px }
